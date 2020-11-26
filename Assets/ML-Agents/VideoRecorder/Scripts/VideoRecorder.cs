@@ -1,5 +1,5 @@
-﻿using System;
-using MLAgents;
+using System;
+using Unity.MLAgents;
 using UnityEngine;
 using UTJ.FrameCapturer;
 
@@ -50,7 +50,7 @@ namespace MLAgents
         {
             get
             {
-                return Academy.Instance.GetTotalStepCount() - 1;
+                return Academy.Instance.TotalStepCount - 1;
             }
         }
 
